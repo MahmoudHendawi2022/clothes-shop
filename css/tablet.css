@@ -1,0 +1,58 @@
+header ul {
+    display: flex;
+    flex-direction: column;
+    /* width: 200px; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    background-color: var(--mainColor);
+    padding-left: 10px;
+    z-index: 10;
+}
+
+.bar{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    right: 50px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+header ul li  {
+padding-bottom: 15px;
+}
+#xmark{
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 30px;
+    cursor: pointer;
+    
+
+}
+#shop {
+    display: none;
+}
+.appear {
+    right: 0;
+}
+.home {
+    background-image: url(/image/375262.png);
+    height: 100vh;
+    background-position:top 25% right 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* start market section */
+table {
+    width: 100%;
+}
+
+/* end market section */
